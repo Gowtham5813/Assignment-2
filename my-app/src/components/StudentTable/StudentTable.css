@@ -1,0 +1,41 @@
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .student-table th,
+  .student-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .student-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .student-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .status-dot.online {
+    background-color: green;
+  }
+  
+  .status-dot.offline {
+    background-color: red;
+  }
+  

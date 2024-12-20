@@ -1,0 +1,28 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #eef1f5;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-item {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .sidebar-item:hover {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
