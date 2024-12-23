@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@prisma/client": "^6.1.0",
     "@reduxjs/toolkit": "^2.5.0",
     "@supabase/supabase-js": "^2.47.10",
     "class-variance-authority": "^0.7.1",

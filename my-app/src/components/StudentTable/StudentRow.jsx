@@ -1,15 +1,17 @@
 import React from 'react';
 
-const StudentRow = ({ student }) => {
+const StudentRow = ({ student, onEdit, onDelete }) => {
   return (
     <tr>
       <td>{student.name}</td>
       <td>{student.cohort}</td>
-      <td>{student.courses.join(', ')}</td>
+      <td>{student.courses}</td>
       <td>{student.dateJoined}</td>
       <td>{student.lastLogin}</td>
+      <td>{student.status ? 'Active' : 'Inactive'}</td>
       <td>
-        <span className={`status-dot ${student.status ? 'online' : 'offline'}`}></span>
+        <button onClick={onEdit}>Edit</button>
+        <button onClick={onDelete}>Delete</button>
       </td>
     </tr>
   );
